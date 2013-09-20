@@ -3,7 +3,13 @@
   width: 600px;
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
+
 }
+
+.container ul {
+  list-style-type: none;
+}
+
 th {
   text-align: left;
 }
