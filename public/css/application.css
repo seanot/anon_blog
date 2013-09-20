@@ -3,13 +3,34 @@
   width: 600px;
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
-
+}
+th {
+  text-align: left;
 }
 
-.container ul {
+ul {
   list-style-type: none;
 }
 
-th {
-  text-align: left;
+.login,
+.login #login {
+  background-color: #267BC9;
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.login #button {
+  position: absolute;
+  top: 10px;
+  left: 75px;
+}
+
+.login #register {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }

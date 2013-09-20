@@ -1,0 +1,11 @@
+
+<div class="profile">
+  <h4>You can optionally include your name on your profile. Doing so will attach your name to each of your blog posts.</h4>
+  <form action="/users/<%= current_user.id %>" method="POST">
+    <label for="first_name">First name</label><input id="first_name" type="text" name="first_name">
+    <br>
+    <label for="last_name">Last name</label><input id="last_name" type="text" name="last_name">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
